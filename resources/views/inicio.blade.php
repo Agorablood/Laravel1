@@ -20,7 +20,8 @@
 
         <div class="game-container">
             <h1>EMPIEZA TU HISTORIA</h1>
-            <img id="movieImage" src="" alt="Ares" />
+            <img class="movieImage" src="img/venus.jpg" alt="Ares" />
+            <button class="btn">Start</button>
             
         </div>
 

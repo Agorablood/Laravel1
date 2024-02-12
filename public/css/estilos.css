@@ -57,20 +57,9 @@ body {
   }
 }
 
-#score {
-  position: absolute;
-  top: 3%;
-  right: 3%;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  color: var(--light-clr);
-  padding: 10px 16px;
-  box-shadow: -1px 1px 25px 14px var(--transparent-primary-clr);
-  background-color: var(--primary-clr);
-  user-select: none;
-}
 
-#movieImage {
+
+.movieImage {
   max-width: 100%;
   width: 550px;
   aspect-ratio: 4/3;
@@ -81,43 +70,15 @@ body {
   outline-offset: 5px;
 }
 
-.input-box {
-  position: relative;
-}
 
-.input-box input {
-  width: 100%;
-  height: 50px;
-  border-radius: 2rem;
-  border: 0;
-  outline: 2px solid var(--primary-clr);
-  padding: 10px 90px 10px 16px;
-  background: transparent;
-  transition: all 0.2s;
-  font-weight: 500;
-  font-size: clamp(0.8rem, 3vw, 1rem);
-  color: var(--light-clr);
-}
 
-.input-box input:focus {
-  outline: 3px dotted var(--primary-clr);
-  outline-offset: 0.1rem;
-}
 
-.input-box input::placeholder {
-  color: rgb(197, 197, 197);
-  opacity: 50%;
-  font-weight: 300;
-}
 
-.input-box input:-webkit-autofill,
-.input-box input:-webkit-autofill:hover,
-.input-box input:-webkit-autofill:focus,
-.input-box input:-webkit-autofill:active {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: var(--light-clr);
-  transition: background-color 5000s ease-in-out 0s;
-}
+
+
+
+
+
 
 .btn {
   height: 44px;
