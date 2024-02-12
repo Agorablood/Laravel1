@@ -1,35 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<div id="particles-js" class="particles"></div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="{{ asset('img/ares.jpg') }}">
-    <link rel="shortcut icon" sizes="192x192" href="{{ asset('img/ares.jpg') }}">
-    <link rel="stylesheet" href="{!! asset('css/estilos.css') !!}">
-    <title>Ares</title>
-    <style>
-        
-    </style>
-</head>
+<div class="game-container">
+    <h1>TU HISTORIA EMPIEZA AQUI...</h1>
+    <img class="movieImage" src="img/ares.jpg" alt="Ares" />
+    <p>Este gatito siamés eres tú, te llamas Ares y eres muy travieso. Un día, mientras jugabas en el parque, de tanta
+        emoción acabaste desorientado y te perdiste en medio del bosque. Pero no te preocupes, porque la vida sin
+        aventuras sería muy aburrida. Sigue adelante y todo saldrá bien.</p>
 
-<body>
+    <a href="{{ url('primer-escenario') }}"><button id="btn-start" class="btn">Start</button></a>
 
-    <body>
-        <div id="particles-js" class="particles"></div>
+</div>
 
-        <div class="game-container">
-            <h1>EMPIEZA TU HISTORIA</h1>
-            <img class="movieImage" src="img/venus.jpg" alt="Ares" />
-            <button class="btn">Start</button>
-            
-        </div>
+<div id="gameOverModal" class="modal">
+    <div class="modal-content"></div>
+</div>
 
-        <div id="gameOverModal" class="modal">
-            <div class="modal-content"></div>
-        </div>
-    </body>
-
-</body>
-
-</html>

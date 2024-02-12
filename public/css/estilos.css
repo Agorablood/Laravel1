@@ -22,6 +22,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#escenario2{
+  display: inline-block;
+}
+#h2{
+  color: white;
+}
 
 .game-container {
   position: relative;
@@ -49,6 +55,9 @@ body {
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: animated-text 26s linear infinite;
+}
+.game-container p {
+  color: white;
 }
 
 @keyframes animated-text {
