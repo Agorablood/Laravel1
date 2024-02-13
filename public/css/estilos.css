@@ -12,6 +12,14 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
 }
+.izq{
+  float: left;
+  width: 50%;
+}
+.der{
+  float: left;
+  width: 50%;
+}
 
 body {
   display: flex;
@@ -30,8 +38,7 @@ body {
 }
 
 .game-container {
-  position: relative;
-  display: flex;
+  position: absolute;
   flex-direction: column;
   align-items: center;
   justify-content: center;

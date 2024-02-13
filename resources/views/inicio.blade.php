@@ -7,7 +7,7 @@
         emoción acabaste desorientado y te perdiste en medio del bosque. Pero no te preocupes, porque la vida sin
         aventuras sería muy aburrida. Sigue adelante y todo saldrá bien.</p>
 
-    <a href="{{ url('primer-escenario') }}"><button id="btn-start" class="btn">Start</button></a>
+    <a href="{{ url('primer-escenario') }}"><button id="btn-start" class="btn">Empieza tu aventura</button></a>
 
 </div>
 
