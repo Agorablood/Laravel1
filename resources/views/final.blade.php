@@ -5,9 +5,10 @@
 <div id="particles-js" class="particles"></div>
 
     <div class="game-container">
-        <h1>Fin de la historia.</h1>
-        <img class="movieImage" src="img/venus.jpg" alt="Ares" />
-        <a href="{{url('inicio')}}"><button id="btn-start" class="btn">Start Again</button></a>
+        <h1>Una bella amistad</h1>
+        <img class="movieImage" src="img/niña-gato.jpg" alt="Ares" />
+        <p>Parece ser que has encontrado una nueva amiga, ella de adopta y sois muy felices para siempre!</p>
+        <a href="{{url('inicio')}}"><button id="btn-start" class="btn">Fin</button></a>
         
         
     </div>

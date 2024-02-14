@@ -5,9 +5,10 @@
 <div id="particles-js" class="particles"></div>
 
     <div class="game-container">
-        <h1>Cómo continuarás la historia...</h1>
-        <img class="movieImage" src="img/venus.jpg" alt="Ares" />
-        <a href="{{url('undecimo-escenario')}}"><button id="btn-start" class="btn">Start</button></a>
+        <h1>Hogar dulce hogar</h1>
+        <img class="movieImage" src="img/gato-familia.jpg" alt="Ares" />
+        <p>Genial, el hombre de la barca y su fiel mascota eran de buena fe, ahora vives sin preocupaciones en la preciosa cabaña del bosque.</p>
+        <a href="{{url('inicio')}}"><button id="btn-start" class="btn">Fin</button></a>
         
         
     </div>

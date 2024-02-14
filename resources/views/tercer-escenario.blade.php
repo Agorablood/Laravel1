@@ -13,7 +13,7 @@
     <div class="der">
         <img class="movieImage" src="img/gato-rio1.jpg" alt="Ares" />
         <p>Te encuentras con un rio inmenso y como te da miedo el agua decides andar por el rio y seguir el camino</p>
-        <a href="{{ url('cuarto-escenario') }}"><button id="btn-start" class="btn">Caminar por el rio</button></a>
+        <a href="{{ url('noveno-escenario') }}"><button id="btn-start" class="btn">Caminar por el rio</button></a>
     </div>
 </div>
 

@@ -5,9 +5,10 @@
 <div id="particles-js" class="particles"></div>
 
     <div class="game-container">
-        <h1>Cómo continuarás la historia...</h1>
-        <img class="movieImage" src="img/venus.jpg" alt="Ares" />
-        <a href="{{url('duodecimo-escenario')}}"><button id="btn-start" class="btn">Start</button></a>
+        <h1>Mi alma gemela</h1>
+        <img class="movieImage" src="img/gato-niña.jpg" alt="Ares" />
+        <p>Felicidades! elegiste una buena familia y ahora eres el mejor amigo de Kaori </p>
+        <a href="{{url('inicio')}}"><button id="btn-start" class="btn">Fin</button></a>
         
         
     </div>
